@@ -8,19 +8,18 @@
   "documentationUrl": {
     "en": "https://github.com/open-contracting/public-private-partnerships"
   },
+  "compatibility": [
+    "1.1"
+  ],
   "codelists": [
     "+milestoneType.csv",
     "+partyRole.csv",
-    "-partyRole.csv",
     "+releaseTag.csv",
-    "initiationType.csv",
+    "-partyRole.csv",
     "documentType.csv",
+    "initiationType.csv",
     "metricID.csv",
     "milestoneCode.csv"
-  ],
-  "compatibility": [
-    "1.0",
-    "1.1"
   ],
   "testDependencies": [
     "https://raw.githubusercontent.com/open-contracting/ocds_budget_projects_extension/master/extension.json",
