@@ -21,6 +21,9 @@
     "metricID.csv",
     "milestoneCode.csv"
   ],
+  "schemas": [
+    "release-schema.json"
+  ],
   "testDependencies": [
     "https://raw.githubusercontent.com/open-contracting/ocds_budget_projects_extension/master/extension.json",
     "https://raw.githubusercontent.com/open-contracting/ocds_metrics_extension/master/extension.json",
