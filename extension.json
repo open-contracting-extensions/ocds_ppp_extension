@@ -6,7 +6,7 @@
     "en": "Makes changes required by the OCDS for PPPs profile, including deleting core fields. Evaluation indicators, finance summary and project details may be moved into new extensions."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting/public-private-partnerships"
+    "en": "https://extensions.open-contracting.org/en/extensions/ppp/"
   },
   "compatibility": [
     "1.1"
