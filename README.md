@@ -91,3 +91,9 @@ This includes elements deprecated in OCDS 1.0, or procurement specific elements 
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
+
+## Changelog
+
+### 2019-03-20
+
+* Set `"uniqueItems": true` on array fields.
