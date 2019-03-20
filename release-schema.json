@@ -75,7 +75,8 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/OrganizationReference"
-          }
+          },
+          "uniqueItems": true
         },
         "evaluationIndicators": {
           "title": "Evaluation of PPP option",
