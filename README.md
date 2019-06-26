@@ -94,6 +94,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2019-05-01
+
+* Remove 'qualifiedBidder' and 'disqualifiedBidder' codes from `+partyRole.csv` (moved to [qualification](https://extensions.open-contracting.org/en/extensions/qualification/master/) extension).
+
 ### 2019-03-20
 
 * Set `"uniqueItems": true` on array fields.
