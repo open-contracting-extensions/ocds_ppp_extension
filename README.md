@@ -51,7 +51,7 @@ An example is shown below:
               "description": "Local Authority Area: Halton Borough Council",
               "gazetteer": {
                 "scheme": "GEONAMES",
-                "identifiers": "2647601.0"
+                "identifiers": "2647601"
               }
             }
           ]
