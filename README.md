@@ -10,8 +10,10 @@ The consolidated OCDS for PPPs extension can be declared in [OCDS package metada
 
 ```json
 {
-    "extensions":["http://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta/extension.json"],
-    "releases":[]
+  "extensions": [
+    "http://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta/extension.json"
+  ],
+  "releases": []
 }
 ```
 
@@ -35,29 +37,28 @@ An example is shown below:
 
 ```json
 {
-    "releases":[
-        {
-            "planning": {
-                "project": {
-                                    "sector": {
-                                        "scheme": "COFOG",
-                                        "description": "Road transportation",
-                                        "id": "04.5.1"
-                                    },
-                                    "locations": [
-                                        {
-                                            "description": "Local Authority Area: Halton Borough Council",
-                                            "gazetteer": {
-                                                "scheme": "GEONAMES",
-                                                "identifiers": "2647601.0"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                  }
-
-        ]
+  "releases": [
+    {
+      "planning": {
+        "project": {
+          "sector": {
+            "scheme": "COFOG",
+            "description": "Road transportation",
+            "id": "04.5.1"
+          },
+          "locations": [
+            {
+              "description": "Local Authority Area: Halton Borough Council",
+              "gazetteer": {
+                "scheme": "GEONAMES",
+                "identifiers": "2647601.0"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
 }
 ```
 
