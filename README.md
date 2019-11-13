@@ -37,28 +37,27 @@ An example is shown below:
 
 ```json
 {
-  "releases": [
-    {
-      "planning": {
-        "project": {
-          "sector": {
-            "scheme": "COFOG",
-            "description": "Road transportation",
-            "id": "04.5.1"
-          },
-          "locations": [
-            {
-              "description": "Local Authority Area: Halton Borough Council",
-              "gazetteer": {
-                "scheme": "GEONAMES",
-                "identifiers": "2647601"
-              }
-            }
-          ]
+  "initiationType": "ppp",
+  "planning": {
+    "project": {
+      "sector": {
+        "scheme": "COFOG",
+        "description": "Road transportation",
+        "id": "04.5.1"
+      },
+      "locations": [
+        {
+          "description": "Local Authority Area: Halton Borough Council",
+          "gazetteer": {
+            "scheme": "GEONAMES",
+            "identifiers": [
+              "2647601"
+            ]
+          }
         }
-      }
+      ]
     }
-  ]
+  }
 }
 ```
 
