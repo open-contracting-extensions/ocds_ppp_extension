@@ -1,4 +1,4 @@
-## OCDS for Public Private Partnerships
+# OCDS for Public Private Partnerships
 
 The Open Contracting Data Standard for Public Private Partnerships profile provides an extended Open Contracting Data Standard schema, offering a structured data model for presenting information on Public Private Partnership Projects.
 
