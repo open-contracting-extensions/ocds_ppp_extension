@@ -25,42 +25,6 @@ This repository contains one additional extensions that forms part of the OCDS f
 
 ### PPP Specific extensions 
 
-#### Project level information
-
-Building on the [Budget and Projects extension](https://github.com/open-contracting-extensions/ocds_budget_projects_extension) this adds to project with:
-
-* Sector classifications - using the [UN Classifications of the Functions of Government](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4)
-* Additional classifications - allowing arbitrary additional project categorization
-* Project location - with options for gazetteer or point location
-
-An example is shown below:
-
-```json
-{
-  "initiationType": "ppp",
-  "planning": {
-    "project": {
-      "sector": {
-        "scheme": "COFOG",
-        "description": "Road transportation",
-        "id": "04.5.1"
-      },
-      "locations": [
-        {
-          "description": "Local Authority Area: Halton Borough Council",
-          "gazetteer": {
-            "scheme": "GEONAMES",
-            "identifiers": [
-              "2647601"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-```
-
 #### Evaluation Indicators
 
 The PPP disclosure framework calls for a number of different indicators to be reported relating to governments evaluation of a PPP project.
