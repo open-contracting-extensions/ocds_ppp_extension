@@ -75,7 +75,8 @@
           "items": {
             "$ref": "#/definitions/OrganizationReference"
           },
-          "uniqueItems": true
+          "uniqueItems": true,
+          "minItems": 1
         },
         "evaluationIndicators": {
           "title": "Evaluation of PPP option",
@@ -115,7 +116,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "discountRate": {
           "title": "Discount rate",
@@ -131,7 +133,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "netPresentValue": {
           "title": "Net present value",
@@ -144,9 +147,11 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
-      }
+      },
+      "minProperties": 1
     },
     "FinanceSummary": {
       "type": "object",
@@ -167,7 +172,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "shareCapital": {
           "title": "Share capital",
@@ -180,7 +186,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "subsidyRatio": {
           "title": "Subsidy ratio",
@@ -196,7 +203,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "projectIRR": {
           "title": "Project Internal Rate of Return",
@@ -212,9 +220,11 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
-      }
+      },
+      "minProperties": 1
     },
     "Budget": {
       "properties": {

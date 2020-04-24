@@ -58,6 +58,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2020-04-24
+
+* Add `minProperties`, `minItems` and/or `minLength` properties.
+
 ### 2019-05-01
 
 * Remove 'qualifiedBidder' and 'disqualifiedBidder' codes from `+partyRole.csv` (moved to [qualification](https://extensions.open-contracting.org/en/extensions/qualification/master/) extension).
