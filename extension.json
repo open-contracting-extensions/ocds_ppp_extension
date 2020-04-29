@@ -27,5 +27,9 @@
   "testDependencies": [
     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_metrics_extension/master/extension.json",
     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_location_extension/master/extension.json"
-  ]
+  ],
+  "contactPoint": {
+    "name": "Open Contracting Partnership",
+    "email": "data@open-contracting.org"
+  }
 }
