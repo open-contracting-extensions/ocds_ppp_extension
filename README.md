@@ -21,7 +21,7 @@ The consolidated OCDS for PPPs extension can be declared in [OCDS package metada
 
 OCDS for PPPs is constructed from [a number of different modular extensions to OCDS](http://standard.open-contracting.org/profiles/ppp/latest/en/extensions/), most of which can be used independently from the profile.
 
-This repository contains one additional extensions that forms part of the OCDS for PPPs profile. This extension introduces a number of fields and building blocks that are specific to PPP disclosure against the World Bank Framework, as well as a set of modifications that should only apply in an OCDS Profile (e.g. removing standard fields that are not required in the profile). 
+This repository contains one additional extensions that forms part of the OCDS for PPPs profile. This extension introduces a number of fields and building blocks that are specific to PPP disclosure against the World Bank Framework, as well as a set of modifications that only apply in an OCDS Profile (e.g. removing standard fields that are not required in the profile). 
 
 ### PPP Specific extensions 
 
@@ -48,7 +48,7 @@ The `contracts.financeSummary` section includes properties to express the **valu
 
 #### Removals
 
-A standard OCDS extension should not remove content from the OCDS schema. However, to allow us to generate a profile schema and reference pages that contain **only** fields that should be considered when publishing OCDS for PPPs data, the release-schema.json for this extension contains a number of `null` fields, which remove schema elements not used by OCDS for PPPs. 
+A standard OCDS extension must not remove content from the OCDS schema. However, to allow us to generate a profile schema and reference pages that contain **only** fields that ought to be considered when publishing OCDS for PPPs data, the release-schema.json for this extension contains a number of `null` fields, which remove schema elements not used by OCDS for PPPs. 
 
 This includes elements deprecated in OCDS 1.0, or procurement specific elements that don't apply in a PPP context. 
 
@@ -57,6 +57,10 @@ This includes elements deprecated in OCDS 1.0, or procurement specific elements 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-06-04
+
+* Review normative and non-normative words.
 
 ### 2020-04-24
 
