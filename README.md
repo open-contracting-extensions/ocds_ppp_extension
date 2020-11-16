@@ -55,7 +55,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2020-11-16
 
 * Restore deprecated fields.
-* Restore `planning/budget/project` and `planning/budget/projectID` fields.
+* Restore `Budget.project` and `Budget.projectID` fields.
 
 ### 2020-06-04
 
