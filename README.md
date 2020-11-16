@@ -46,17 +46,16 @@ The `contracts.financeSummary` section includes properties to express the **valu
 * subsidyRatio
 * projectIRR
 
-#### Removals
-
-A standard OCDS extension must not remove content from the OCDS schema. However, to allow us to generate a profile schema and reference pages that contain **only** fields that ought to be considered when publishing OCDS for PPPs data, the release-schema.json for this extension contains a number of `null` fields, which remove schema elements not used by OCDS for PPPs. 
-
-This includes elements deprecated in OCDS 1.0, or procurement specific elements that don't apply in a PPP context. 
-
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-11-16
+
+* Restore deprecated fields.
+* Restore `planning/budget/project` and `planning/budget/projectID` fields.
 
 ### 2020-06-04
 
