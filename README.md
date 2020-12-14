@@ -2,7 +2,7 @@
 
 The Open Contracting Data Standard for Public Private Partnerships profile provides an extended Open Contracting Data Standard schema, offering a structured data model for presenting information on Public Private Partnership Projects.
 
-It is based on the [World Bank Framework for Disclosure in Public Private Partnership Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) and was developed between May 2016 and May 2017 through a partnership between the [World Bank Open Contracting team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP team](http://www.worldbank.org/en/topic/publicprivatepartnerships), [Open Contracting Partnership](http://open-contracting.org), and [Open Data Services Co-operative](http://www.opendataservices.coop). 
+It is based on the [World Bank Framework for Disclosure in Public Private Partnership Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) and was developed between May 2016 and May 2017 through a partnership between the [World Bank Open Contracting team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP team](http://www.worldbank.org/en/topic/publicprivatepartnerships), [Open Contracting Partnership](http://open-contracting.org), and [Open Data Services Co-operative](http://www.opendataservices.coop).
 
 Full documentation of the profile is available at [http://standard.open-contracting.org/profiles/ppp/](http://standard.open-contracting.org/profiles/ppp/)
 
@@ -17,13 +17,13 @@ The consolidated OCDS for PPPs extension can be declared in [OCDS package metada
 }
 ```
 
-## About PPP extensions 
+## About PPP extensions
 
 OCDS for PPPs is constructed from [a number of different modular extensions to OCDS](http://standard.open-contracting.org/profiles/ppp/latest/en/extensions/), most of which can be used independently from the profile.
 
-This repository contains one additional extensions that forms part of the OCDS for PPPs profile. This extension introduces a number of fields and building blocks that are specific to PPP disclosure against the World Bank Framework, as well as a set of modifications that only apply in an OCDS Profile (e.g. removing standard fields that are not required in the profile). 
+This repository contains one additional extensions that forms part of the OCDS for PPPs profile. This extension introduces a number of fields and building blocks that are specific to PPP disclosure against the World Bank Framework, as well as a set of modifications that only apply in an OCDS Profile (e.g. changing closed codelists).
 
-### PPP Specific extensions 
+### PPP Specific extensions
 
 #### Evaluation Indicators
 
@@ -51,6 +51,10 @@ The `contracts.financeSummary` section includes properties to express the **valu
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-12-14
+
+* Restore `buyer` and `awards/suppliers` fields.
 
 ### 2020-11-16
 
