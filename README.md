@@ -35,6 +35,20 @@ The `awards.evaluationIndicators` section includes properties to express the **v
 * riskPremium
 * netPresentValue
 
+##### Example
+
+```
+"evaluationIndicators": {
+  "riskPremium": 0.0092,
+  "riskPremiumDetails": "Based on a market risk premium of 6.0% (per government guidelines) and an asset beta of 0.45 (per a sample of listed telecommunication network providers) the project risk allocation gives rise to a risk premium of 0.92%",
+  "discountRate": 0.03,
+  "discountRateDetails": "Based on the current long term public sector bond rate",
+  "netPresentValue": {
+    "amount": 118044591901.35034,
+    "currency": "USD"
+  }
+```
+
 #### Finance Summary
 
 The PPP disclosure framework calls for a number of different indicators relating to the financial model of a PPP project. Whilst some of these may be reported as metrics on an ongoing basis, some are simple single values.
@@ -45,6 +59,18 @@ The `contracts.financeSummary` section includes properties to express the **valu
 * shareCapital
 * subsidyRatio
 * projectIRR
+
+##### Example
+
+```
+"financeSummary": {
+  "debtEquityRatio": 2.05,
+  "debtEquityRatioDetails": "Until the target population coverage is reached mega Consortium must comply with a contribution of capital of at least 30% of the total value of the company",
+  "shareCapital": {
+    "amount": 20000000,
+    "currency": "USD"
+  }
+```
 
 ## Issues
 
