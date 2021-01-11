@@ -80,7 +80,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-12-14
 
-* Restore `buyer` and `awards/suppliers` fields.
+* Restore `buyer` and `awards.suppliers` fields.
 
 ### 2020-11-16
 
