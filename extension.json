@@ -3,7 +3,7 @@
     "en": "OCDS for PPPs Extension"
   },
   "description": {
-    "en": "Makes changes required by the OCDS for PPPs profile, including deleting core fields. Evaluation indicators, finance summary and project details may be moved into new extensions."
+    "en": "Makes changes required by the OCDS for PPPs profile. Evaluation indicators, finance summary and project details may be moved into new extensions."
   },
   "documentationUrl": {
     "en": "https://extensions.open-contracting.org/en/extensions/ppp/"

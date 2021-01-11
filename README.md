@@ -21,7 +21,7 @@ The consolidated OCDS for PPPs extension can be declared in [OCDS package metada
 
 OCDS for PPPs is constructed from [a number of different modular extensions to OCDS](http://standard.open-contracting.org/profiles/ppp/latest/en/extensions/), most of which can be used independently from the profile.
 
-This repository contains one additional extension that forms part of the OCDS for PPPs profile. This extension introduces a number of fields and building blocks that are specific to PPP disclosure against the World Bank Framework.
+This repository contains one additional extension that forms part of the OCDS for PPPs profile. This extension introduces a number of fields and building blocks that are specific to PPP disclosure against the World Bank Framework, as well as changing a closed codelist (`releaseTag.csv`), a modification that only applies in an OCDS Profile.
 
 ### PPP Specific extensions
 
