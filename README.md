@@ -80,10 +80,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2021-01-11
 
-* Remove `initiationType.csv`.
-
-### 2020-12-14
-
+* Remove `initiationType.csv` codelist.
 * Restore `buyer` and `awards.suppliers` fields.
 
 ### 2020-11-16
