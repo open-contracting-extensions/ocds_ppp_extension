@@ -80,7 +80,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2021-01-14
 
-* Remove `releaseTag.csv` codelist.
+* Remove `+releaseTag.csv` codelist.
 
 ### 2021-01-11
 
