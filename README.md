@@ -78,6 +78,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2021-03-11
+
+* Move the codes from `+milestoneType.csv` and `+partyRole.csv` to the standard.
+
 ### 2021-02-15
 
 * Restore 'procuringEntity', 'tenderer' and 'funder' roles. Remove 'bidder' role.
