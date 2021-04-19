@@ -80,7 +80,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2021-04-19
 
-* Remove `documentType.csv`, which replaced the OCDS document type codelist, with `+documentType.csv`, which adds codes specific to this repository.
+* Replace `documentType.csv` with `+documentType.csv`, which adds new codes instead of replacing the codelist.
 
 ### 2021-02-15
 
