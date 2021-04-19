@@ -14,7 +14,7 @@
   "codelists": [
     "+milestoneType.csv",
     "+partyRole.csv",
-    "documentType.csv",
+    "+documentType.csv",
     "metricID.csv",
     "milestoneCode.csv"
   ],
