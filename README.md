@@ -78,6 +78,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2021-04-19
+
+* Remove `documentType.csv`, which replaced the OCDS document type codelist, with `+documentType.csv`, which adds codes specific to this repository.
+
 ### 2021-02-15
 
 * Restore 'procuringEntity', 'tenderer' and 'funder' roles. Remove 'bidder' role.
