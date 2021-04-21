@@ -78,9 +78,13 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
-### 2021-03-11
+### 2021-04-21
 
 * Move the codes from `+milestoneType.csv` and `+partyRole.csv` to the standard [#1157](https://github.com/open-contracting/standard/issues/1157).
+
+### 2021-04-19
+
+* Replace `documentType.csv` with `+documentType.csv`, which adds new codes instead of replacing the codelist.
 
 ### 2021-02-15
 
