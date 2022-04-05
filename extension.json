@@ -22,7 +22,7 @@
     "release-schema.json"
   ],
   "testDependencies": [
-    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_metrics_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_metrics_extension/1.1/extension.json",
     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_location_extension/master/extension.json"
   ],
   "contactPoint": {
