@@ -110,7 +110,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2019-05-01
 
-* Remove 'qualifiedBidder' and 'disqualifiedBidder' codes from `+partyRole.csv` (moved to [qualification](https://extensions.open-contracting.org/en/extensions/qualification/master/) extension).
+* Remove 'qualifiedBidder' and 'disqualifiedBidder' codes from `+partyRole.csv` (moved to [qualification](https://github.com/open-contracting-extensions/ocds_qualification_extension) extension).
 
 ### 2019-03-20
 
