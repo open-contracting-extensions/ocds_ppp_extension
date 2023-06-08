@@ -80,6 +80,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-06-07
 
+* [#1157](https://github.com/open-contracting/standard/issues/1157) Move the codes from the `+milestoneType.csv` and `+partyRole.csv` codelists to the standard.
 * Remove unused `+partyRole.csv` codes:
   * consortiaMember
   * grantor
