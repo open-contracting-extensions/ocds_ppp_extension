@@ -78,6 +78,15 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2023-06-07
+
+* Remove unused `+partyRole.csv` codes:
+  * consortiaMember
+  * grantor
+  * notary
+  * otherWitness
+  * socialWitness
+
 ### 2021-04-19
 
 * Replace `documentType.csv` with `+documentType.csv`, which adds new codes instead of replacing the codelist.
