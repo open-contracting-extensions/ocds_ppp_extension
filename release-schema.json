@@ -19,9 +19,9 @@
       }
     },
     "EvaluationIndicators": {
-      "type": "object",
       "title": "Evaluation indicators",
       "description": "Key indicators that describe how the PPP option has been evaluated by government.",
+      "type": "object",
       "properties": {
         "riskPremium": {
           "title": "Risk premium",
@@ -75,9 +75,9 @@
       "minProperties": 1
     },
     "FinanceSummary": {
-      "type": "object",
       "title": "Finance summary",
       "description": "Key indicators that describe the financial model of the PPP.",
+      "type": "object",
       "properties": {
         "debtEquityRatio": {
           "title": "Debt equity ratio",
