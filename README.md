@@ -2,16 +2,16 @@
 
 The Open Contracting Data Standard for Public Private Partnerships profile provides an extended Open Contracting Data Standard schema, offering a structured data model for presenting information on Public Private Partnership Projects.
 
-It is based on the [World Bank Framework for Disclosure in Public Private Partnership Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief/ppp-tools#T1) and was developed between May 2016 and May 2017 through a partnership between the [World Bank Open Contracting team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP team](http://www.worldbank.org/en/topic/publicprivatepartnerships), [Open Contracting Partnership](http://open-contracting.org), and [Open Data Services Co-operative](http://www.opendataservices.coop).
+It is based on the [World Bank Framework for Disclosure in Public Private Partnership Projects](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/744411637834708119/a-framework-for-disclosure-in-public-private-partnership-projects) and was developed between May 2016 and May 2017 through a partnership between the [World Bank Open Contracting team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP team](https://www.worldbank.org/en/topic/publicprivatepartnerships), [Open Contracting Partnership](https://www.open-contracting.org), and [Open Data Services Co-operative](https://opendataservices.coop).
 
-Full documentation of the profile is available at [http://standard.open-contracting.org/profiles/ppp/](http://standard.open-contracting.org/profiles/ppp/)
+Full documentation of the profile is available at [https://standard.open-contracting.org/profiles/ppp/](https://standard.open-contracting.org/profiles/ppp/)
 
-The consolidated OCDS for PPPs extension can be declared in [OCDS package metadata](http://standard.open-contracting.org/latest/en/schema/release_package/) using:
+The consolidated OCDS for PPPs extension can be declared in [OCDS package metadata](https://standard.open-contracting.org/latest/en/schema/release_package/) using:
 
 ```json
 {
   "extensions": [
-    "http://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta/extension.json"
+    "https://standard.open-contracting.org/profiles/ppp/extension/1__0__0__beta/extension.json"
   ],
   "releases": []
 }
@@ -19,7 +19,7 @@ The consolidated OCDS for PPPs extension can be declared in [OCDS package metada
 
 ## About PPP extensions
 
-OCDS for PPPs is constructed from [a number of different modular extensions to OCDS](http://standard.open-contracting.org/profiles/ppp/latest/en/extensions/), most of which can be used independently from the profile.
+OCDS for PPPs is constructed from [a number of different modular extensions to OCDS](https://standard.open-contracting.org/profiles/ppp/latest/en/extensions/), most of which can be used independently from the profile.
 
 This repository contains one additional extension that forms part of the OCDS for PPPs profile. This extension introduces a number of fields and building blocks that are specific to PPP disclosure against the World Bank Framework.
 
