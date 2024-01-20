@@ -33,7 +33,7 @@
         },
         "riskPremiumDetails": {
           "title": "Risk premium details",
-          "description": "Further details on the risk premium used including an explanation of why it was used.",
+          "description": "Additional details on the risk premium used: for example, the rationale.",
           "type": [
             "string",
             "null"
@@ -50,7 +50,7 @@
         },
         "discountRateDetails": {
           "title": "Discount rate details",
-          "description": "Further details on the discount rate used.",
+          "description": "Additional details on the discount rate used.",
           "type": [
             "string",
             "null"
@@ -64,7 +64,7 @@
         },
         "netPresentValueDetails": {
           "title": "Net present value details",
-          "description": "Further details on the calculation of the net present value.",
+          "description": "Additional details on the calculation of the net present value.",
           "type": [
             "string",
             "null"
@@ -89,7 +89,7 @@
         },
         "debtEquityRatioDetails": {
           "title": "Debt equity ratio details",
-          "description": "Further details on the calculation of the debt equity ratio.",
+          "description": "Additional details on the calculation of the debt equity ratio.",
           "type": [
             "string",
             "null"
@@ -103,7 +103,7 @@
         },
         "shareCapitalDetails": {
           "title": "Share capital details",
-          "description": "Further details on the calculation of the share capital.",
+          "description": "Additional details on the calculation of the share capital.",
           "type": [
             "string",
             "null"
@@ -120,7 +120,7 @@
         },
         "subsidyRatioDetails": {
           "title": "Subsidy ratio details",
-          "description": "Further details on the calculation of the subsidy ratio.",
+          "description": "Additional details on the calculation of the subsidy ratio.",
           "type": [
             "string",
             "null"
@@ -137,7 +137,7 @@
         },
         "projectIRRDetails": {
           "title": "Project IRR details",
-          "description": "Further details on the calculation of the project IRR.",
+          "description": "Additional details on the calculation of the project IRR.",
           "type": [
             "string",
             "null"
