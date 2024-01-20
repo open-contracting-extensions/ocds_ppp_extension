@@ -25,7 +25,7 @@
       "properties": {
         "riskPremium": {
           "title": "Risk premium",
-          "description": "The risk premium used by government when evaluating the PPP option expressed as a decimal fraction (e.g. 3.2% = 0.032). An explanation of the risk premium used should be provided in the riskPremiumDetails field.",
+          "description": "The risk premium used by government when evaluating the PPP option, expressed as a decimal (for example, 0.1) and not as a percentage (for example, 10).",
           "type": [
             "number",
             "null"
@@ -42,7 +42,7 @@
         },
         "discountRate": {
           "title": "Discount rate",
-          "description": "The discount rate used by government when evaluating the PPP option expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details can be provided in the discountRateDetails field.",
+          "description": "The discount rate used by government when evaluating the PPP option, expressed as a decimal (for example, 0.1) and not as a percentage (for example, 10).",
           "type": [
             "number",
             "null"
@@ -59,7 +59,7 @@
         },
         "netPresentValue": {
           "title": "Net present value",
-          "description": "The discounted value of an investment's cash inflows minus the discounted value of its cash outflows. Further details can be provided in the netPresentValueRateDetails field.",
+          "description": "The discounted value of an investment's cash inflows minus the discounted value of its cash outflows.",
           "$ref": "#/definitions/Value"
         },
         "netPresentValueDetails": {
@@ -81,7 +81,7 @@
       "properties": {
         "debtEquityRatio": {
           "title": "Debt equity ratio",
-          "description": "The debt-equity ratio of the project, expressed as a decimal value. The World Bank PPPIRC defines the debt equity ratio as 'long term debt (divided by) the shareholder equity of the project company'. Also known as 'leverage' or 'gearing'. Further details on the debt equity ratio can be provided in the debtEquityRatioDetails field.",
+          "description": "The debt-equity ratio of the project, expressed as a decimal (for example, 0.1). Also called gearing or leverage.",
           "type": [
             "number",
             "null"
@@ -98,7 +98,7 @@
         },
         "shareCapital": {
           "title": "Share capital",
-          "description": "The value of the capital in the project that comes from the issue of shares. Further details on the share capital can be provided in the shareCapitalDetails field.",
+          "description": "The value of the capital in the project that comes from the issue of shares.",
           "$ref": "#/definitions/Value"
         },
         "shareCapitalDetails": {
@@ -112,7 +112,7 @@
         },
         "subsidyRatio": {
           "title": "Subsidy ratio",
-          "description": "Subsidy as a proportion of project value, expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details of the subsidy ratio can be provided in the subsidyRatioDetails field.",
+          "description": "The subsidy's proportion of the project value, expressed as a decimal between 0 and 1.",
           "type": [
             "number",
             "null"
@@ -129,7 +129,7 @@
         },
         "projectIRR": {
           "title": "Project Internal Rate of Return",
-          "description": "The internal rate of return of the project, expressed as a decimal fraction (e.g. 3.2% = 0.032). The APMG PPP Certification Program defines IRR as 'The rate of return of an investment calculated from its projected cash flows. The internal rate of return (IRR) is also the discount rate that equates the present value of a future stream of cash flows to the initial investment'. Further details on the project IRR can be provided in the projectIRRDetails field.",
+          "description": "The internal rate of return of the project, expressed as a decimal (for example, 0.1) and not as a percentage (for example, 10).",
           "type": [
             "number",
             "null"
