@@ -80,7 +80,7 @@
       "type": "object",
       "properties": {
         "debtEquityRatio": {
-          "title": "Debt equity ratio",
+          "title": "Debt-equity ratio",
           "description": "The debt-equity ratio of the project, expressed as a decimal (for example, 0.1). Also called gearing or leverage.",
           "type": [
             "number",
@@ -88,7 +88,7 @@
           ]
         },
         "debtEquityRatioDetails": {
-          "title": "Debt equity ratio details",
+          "title": "Debt-equity ratio details",
           "description": "Additional details on the calculation of the debt equity ratio.",
           "type": [
             "string",
@@ -128,7 +128,7 @@
           "minLength": 1
         },
         "projectIRR": {
-          "title": "Project Internal Rate of Return",
+          "title": "Internal rate of return",
           "description": "The internal rate of return of the project, expressed as a decimal (for example, 0.1) and not as a percentage (for example, 10).",
           "type": [
             "number",
@@ -136,7 +136,7 @@
           ]
         },
         "projectIRRDetails": {
-          "title": "Project IRR details",
+          "title": "Internal rate of return details",
           "description": "Additional details on the calculation of the project IRR.",
           "type": [
             "string",
