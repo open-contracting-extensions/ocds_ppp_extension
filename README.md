@@ -29,7 +29,7 @@ This repository contains one additional extension that forms part of the OCDS fo
 
 The PPP disclosure framework calls for a number of different indicators to be reported relating to governments evaluation of a PPP project.
 
-The `awards.evaluationIndicators` section includes fields to express the **value** and supporting **free-text details** for each indicator:
+The `awards.evaluationIndicators` section includes fields to express the **value** and supporting **details** for each indicator:
 
 * discountRate
 * riskPremium
@@ -53,7 +53,7 @@ The `awards.evaluationIndicators` section includes fields to express the **value
 
 The PPP disclosure framework calls for a number of different indicators relating to the financial model of a PPP project. Whilst some of these may be reported as metrics on an ongoing basis, some are simple single values.
 
-The `contracts.financeSummary` section includes fields to express the **value** and supporting **free-text details** for each indicator:
+The `contracts.financeSummary` section includes fields to express the **value** and supporting **details** for each indicator:
 
 * debtEquityRatio
 * shareCapital
