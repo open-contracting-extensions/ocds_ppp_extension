@@ -93,7 +93,8 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2021-02-15
 
-* Restore 'procuringEntity', 'tenderer' and 'funder' roles. Remove 'bidder' role.
+* Restore 'procuringEntity', 'tenderer' and 'funder' roles.
+* Remove 'bidder' role.
 
 ### 2021-01-14
 
