@@ -80,7 +80,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-06-07
 
-* Remove unused `+partyRole.csv` codes:
+* Remove unused codes from the `+partyRole.csv` codelist:
   * consortiaMember
   * grantor
   * notary
@@ -98,11 +98,11 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2021-01-14
 
-* Remove `+releaseTag.csv` codelist.
+* Remove the `+releaseTag.csv` codelist patch.
 
 ### 2021-01-11
 
-* Remove `initiationType.csv` codelist.
+* Remove the `initiationType.csv` codelist.
 * Restore `buyer` and `awards.suppliers` fields.
 
 ### 2020-11-16
@@ -120,7 +120,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2019-05-01
 
-* Remove 'qualifiedBidder' and 'disqualifiedBidder' codes from `+partyRole.csv` (moved to [qualification](https://github.com/open-contracting-extensions/ocds_qualification_extension) extension).
+* Remove 'qualifiedBidder' and 'disqualifiedBidder' codes from the `+partyRole.csv` codelist patch (moved to [qualification](https://github.com/open-contracting-extensions/ocds_qualification_extension) extension).
 
 ### 2019-03-20
 
