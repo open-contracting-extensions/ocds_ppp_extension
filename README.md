@@ -80,7 +80,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-06-07
 
-* Remove unused codes from the `+partyRole.csv` codelist:
+* Remove unused codes from the `+partyRole.csv` codelist patch:
   * consortiaMember
   * grantor
   * notary
